@@ -6,4 +6,6 @@
     <string name="lbl_exit">Bezár</string>
     <string name="title_error">Hiba</string>
     <string name="error_no_ir">Nincs IR (infra) a készülékben!</string>
+    <string name="title_info">Info</string>
+    <string name="lbl_info">Készítette: Török Ádám\nE-mail: adam.torok96@gmail.com</string>
 </resources>

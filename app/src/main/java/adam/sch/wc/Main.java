@@ -1,6 +1,7 @@
 package adam.sch.wc;
 
 import android.app.AlertDialog;
+import android.app.Dialog;
 import android.content.DialogInterface;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -41,7 +42,7 @@ public class Main extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
 
         switch( item.getItemId() ) {
-
+            case R.id.menuShowInfo: showInfoDialog(); return true;
         }
 
         return super.onOptionsItemSelected(item);
@@ -60,5 +61,12 @@ public class Main extends AppCompatActivity {
         });
 
         builder.create().show();
+    }
+
+    private void showInfoDialog() {
+        Dialog dialog = new Dialog(this);
+        dialog.setTitle(R.string.title_info);
+        dialog.setContentView(R.layout.dialog_info);
+        dialog.show();
     }
 }
