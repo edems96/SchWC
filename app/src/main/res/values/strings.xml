@@ -3,4 +3,7 @@
 
     <string name="lbl_open">Nyit</string>
     <string name="lbl_close">Zár</string>
+    <string name="lbl_exit">Bezár</string>
+    <string name="title_error">Hiba</string>
+    <string name="error_no_ir">Nincs IR (infra) a készülékben!</string>
 </resources>
